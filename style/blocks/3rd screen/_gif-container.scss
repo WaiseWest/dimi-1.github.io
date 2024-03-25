@@ -1,0 +1,39 @@
+.third-screen{
+    background-color: black;
+    .gif-container{
+        display: flex;
+        padding-top: 3%;
+        img{
+            margin-top: auto;
+            margin-bottom: auto;
+            height: fit-content;
+            width: 45%;
+        }
+        h1{
+            margin-right: 4%;
+            position: relative;
+            font-size: 70pt;
+            font-family:'Century Gothic Regular';
+            color: white;
+            align-self: center;
+            letter-spacing: 1.5pt;
+            text-align: right;
+            width: 51%;
+        }   
+    }
+    .block{
+        margin: 0;
+        padding: 2% 5% 2% 5%;
+        background-color: black;
+        flex-direction: row;
+        @include headerfont;
+    h1{
+        font-size: 20t;
+        font-weight: 100;
+    }
+    h2{  
+        font-size: 15pt;
+        font-weight: 100;
+    }
+    }
+}

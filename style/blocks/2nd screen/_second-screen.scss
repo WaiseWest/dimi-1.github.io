@@ -1,0 +1,17 @@
+.second-screen {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 0;
+}
+.textheader-1{
+    display: block;
+    @include headerfont;
+    position: relative;
+    font-size: 60pt;
+    top: 9vh;
+}
+@media(max-width:1060px){
+    .textheader-1{
+        font-size: 50pt;
+    }
+}

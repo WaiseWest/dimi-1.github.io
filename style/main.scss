@@ -1,0 +1,16 @@
+$basis_back_color: #86C232;
+$text_color_dark: black;
+@import "./blocks/mixins/mixins";
+@font-face {
+	font-family: 'Century Gothic Regular'; 
+	src: url(centurygothic.ttf); 
+}
+@import "./blocks/header/header";
+@import "./blocks/body";
+@import "./blocks/startscreen";
+@import "./blocks/2nd\ screen/image-container-1";
+@import "./blocks/2nd\ screen/second-screen";
+@import "./blocks/3rd\ screen/gif-container";
+@import "./blocks/4th\ screen/forth-screen";
+@import "./blocks/footer/footer";
+@import "./blocks/1st\ screen/first-screen";

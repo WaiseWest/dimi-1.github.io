@@ -1,0 +1,35 @@
+.header{
+    z-index: 2;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    height: 10%;
+    min-height: 30px;
+    background-color: $text_color_dark;
+    position:fixed;
+    padding: 1% 0 1% 0;
+
+    img{
+        height: fit-content;
+        width: 10%;
+        align-self: center;
+        padding-left: 3%;
+    }
+
+    h1{
+        @include headerfont;
+        width:30%;
+    }
+    h2{
+        @include headerfont;
+        width: 60%;
+        padding-right: 3%;
+        text-align: right;
+        text-decoration: underline;       
+    }
+    img.list{
+        padding-left: 0%;
+        margin: 2% 5% 3% -3.2%;
+        width: 4%;
+    }
+}
